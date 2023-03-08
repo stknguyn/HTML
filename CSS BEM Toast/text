@@ -1,0 +1,45 @@
+<!--warning -->
+      <div>
+        <div class="toast toast--warning">
+          <div class="toast__icon">
+            <i class=" "></i>
+          </div>
+          <div class="toast__body">
+            <h3 class="toast__title">Warning</h3>
+            <p class="toast__msg">Đăng kí không thành công, vui lòng thử lại</p>
+          </div>
+          <div class="toast__close">
+            <i class="fa-sharp fa-solid fa-xmark"></i>
+          </div>
+        </div>
+      </div>
+      <!--Info-->
+      <div>
+        <div class="toast toast--info">
+          <div class="toast__icon">
+            <i class="fa-sharp fa-solid fa-circle-info"></i>
+          </div>
+          <div class="toast__body">
+            <h3 class="toast__title">Info</h3>
+            <p class="toast__msg">Đang trong quá trình xử lí</p>
+          </div>
+          <div class="toast__close">
+            <i class="fa-sharp fa-solid fa-xmark"></i>
+          </div>
+        </div>
+      </div>
+      <!--Error-->
+      <div>
+        <div class="toast toast--error">
+          <div class="toast__icon">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+          </div>
+          <div class="toast__body">
+            <h3 class="toast__title">Error</h3>
+            <p class="toast__msg">Tài khoản này đã được đăng kí từ trước</p>
+          </div>
+          <div class="toast__close">
+            <i class="fa-sharp fa-solid fa-xmark"></i>
+          </div>
+        </div>
+      </div>

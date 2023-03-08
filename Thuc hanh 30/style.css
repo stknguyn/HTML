@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-size: 16px;
+    background-color: rgb(91, 164, 228);
+}
+#button ul {
+    list-style: none;
+}
+#wrap {
+    background-color: rgb(91, 164, 228);
+    width: 916px;
+    border: 1px solid white;
+    margin: 0 auto;
+}
+#innerwrap {
+    background-color: rgb(39, 121, 193);
+    
+}
+#innerwrap:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+#button {
+    background-color: rgb(172, 149, 241);
+    height: 40px;
+}
+#button li {
+    float: left;
+    width: 120px;
+    height: 40px;
+    background-color: blueviolet;
+    text-align: center;
+    border:1.5px solid black;
+    line-height: 40px;
+}
+#button a {
+    text-decoration: none ;
+    color: whitesmoke;
+}
+#button a:hover {
+    color: green;
+}
+#leftwrap {
+    float: left;
+    width: 300px;
+}
+#rightwrap {
+    float: right;
+    width: 600px;
+}
+#footer {
+    background-color: beige;
+    width: auto;
+    height: 100px;
+    padding-top: 10px;
+}
+#leftwrap p, #leftwrap h1, #leftwrap h2, #leftwrap h3
+, #leftwrap h4, #rightwrap h1, #rightwrap p {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+p, li {
+    font-size: 1em;
+    line-height: 1.125em;
+}
+#headingtitle{
+    font-size: 2em;
+    position: absolute;
+    height: 80px;
+    top: 30px;
+    left: 600px;
+    color: rgb(232, 213, 67);
+}
